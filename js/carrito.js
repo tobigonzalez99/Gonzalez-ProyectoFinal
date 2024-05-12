@@ -157,6 +157,11 @@ function sumaContador(item) {
                     text: "Vaciaste el carrito correctamente",
                     icon: "success"
                   });
+                  localStorage.removeItem("carritoItems");
+                  renderCarritoItems([]);
+                  actualizarCarritoTotal();
+                }else {
+                    
                 }
               });
         }else {
@@ -166,9 +171,6 @@ function sumaContador(item) {
                 icon: "info"
             });
         }
-        localStorage.removeItem("carritoItems");
-        renderCarritoItems([]);
-        actualizarCarritoTotal();
     });
 
     const btnFinalizarCompra = document.querySelector(".btn-finalizar-compra");

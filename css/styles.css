@@ -123,7 +123,8 @@ main {
 }
 
 .carrito-item img {
-    width: 4rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 1rem;
 }
 
