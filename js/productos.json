@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nombre": "Gorra Capitán",
+      "imagen": "../img/gorra_capitan.jpg",
+      "precio": 1000
+    },
+    {
+      "id": 2,
+      "nombre": "Gorra Simple",
+      "imagen": "../img/gorra_simple.jpg",
+      "precio": 1000
+    },
+    {
+      "id": 3,
+      "nombre": "Vincha",
+      "imagen": "../img/vincha.jpg",
+      "precio": 1000
+    },
+    {
+      "id": 4,
+      "nombre": "Vaso Full Shine",
+      "imagen": "../img/vaso_full_shine.jpg",
+      "precio": 1000
+    }
+  ]
